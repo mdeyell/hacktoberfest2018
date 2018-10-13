@@ -18,6 +18,10 @@ class weird {
      if ((i /i) == 1){
        console.log('WHY!!!!111!!');
      }
+     console.log([]+(-~function(){}-~function(){}-~function(){}-~function(){}) + (-~function(){}-~function(){}));
+     console.log(~(function () {}).toString());
+
+
   }
 
   awaitTest(){
