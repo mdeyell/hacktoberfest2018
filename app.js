@@ -9,6 +9,7 @@ app.get('/', function(req, res){
 let weird = new Weird();
 weird.weirdStuff();
 weird.awaitTest();
+weird.weirdStuff();
 
 
 //app.listen(3000);
